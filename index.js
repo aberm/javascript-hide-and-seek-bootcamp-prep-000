@@ -26,5 +26,5 @@ function deepestChild() {
     var a = x.children[0];
     x = a; }
     return x}
-return retrieve(y).innerText;
+return retrieve(y).innerHTML;
 }
